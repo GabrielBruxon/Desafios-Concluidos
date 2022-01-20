@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    height: 400px; 
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+li{
+    margin-right: 40px;
+    
+}
+h1, p{
+    color: gray;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 10px
+}
+
+p{
+    font-size: 28px;
+}
+
+
+
+#Cabecalho-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+
+.Logo {
+    color: #D2872C;
+    font-size: 38px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.Lista-menu-nav{
+    display: flex;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#Container {
+    clear: both;
+}
+
+.Conteudo-texto-esquerda {
+    float: left;
+    clear:left;
+    padding: 60px;
+    margin-left: 190px;
+    margin-top: 40px;
+
+    
+
+}
+
+.Button {
+    margin-top: 20px;
+    background-color: #D2872C;
+    color: #fff;
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    border-style:hidden;
+    cursor: pointer;
+    font-size: 25px;
+
+}
+
+.conteudo-img-direita {
+  float: right;
+  clear: right;
+  margin-top: 80px;
+  margin-right: 90px;
+
+  
+
+}
